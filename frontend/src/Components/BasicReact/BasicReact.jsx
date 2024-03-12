@@ -8,13 +8,12 @@ const data = {
 
 export function Address(props){
   return(
-    <div >
+    <div>
       <h1>{props.name}</h1>
       <p>{props.place}</p>
       <button onClick={props.onClick} >submit</button>
     </div>
   )
-
 }
 
 const GetMyOptions1 = ( ) => {
